@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey there, I'm *Senku*!
+Hey there, I'm *joker2.0*!
 I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential[.](https://images6.alphacoders.com/102/thumb-1920-1027254.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕ Aᴅᴅ Mᴇ 🔘", url="t.me/SenkuRobot?startgroup=true"),
+            text="ADD ME TO YOUR GROUP", url="t.me/Joker2_0_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="❔ Aʙᴏᴜᴛ", callback_data="masha_"),
@@ -89,9 +89,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="📢 News", url="t.me/SenkuNews"),
+            text="MY UPDATE CHANNEL", url="t.me/joker_updates"),
         InlineKeyboardButton(
-            text="Sᴜᴘᴘᴏʀᴛ 🆘", url="https://t.me/SenkuSupport"
+            text="MY SUPPORT GROUP", url="https://t.me/jokerassociation"
         ),
     ],
 ]
